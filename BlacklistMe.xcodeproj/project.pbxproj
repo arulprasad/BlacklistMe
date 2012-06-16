@@ -21,6 +21,9 @@
 		F7071501158CB1D700DDC854 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70714FF158CB1D700DDC854 /* MasterViewController_iPad.xib */; };
 		F7071504158CB1D700DDC854 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7071502158CB1D700DDC854 /* DetailViewController_iPhone.xib */; };
 		F7071507158CB1D700DDC854 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7071505158CB1D700DDC854 /* DetailViewController_iPad.xib */; };
+		F707150E158CB1FF00DDC854 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F707150D158CB1FF00DDC854 /* CoreLocation.framework */; };
+		F7B4F87F158CCD3800247A2E /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B4F87D158CCD3800247A2E /* MainScreenViewController.m */; };
+		F7B4F880158CCD3800247A2E /* MainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B4F87E158CCD3800247A2E /* MainScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,21 +32,25 @@
 		F70714E1158CB1D600DDC854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F70714E3158CB1D600DDC854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F70714E5158CB1D600DDC854 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F70714E9158CB1D600DDC854 /* BlacklistMe-Info.plist */ = {isa = PBXFileReference; path = "BlacklistMe-Info.plist"; sourceTree = "<group>"; };
+		F70714E9158CB1D600DDC854 /* BlacklistMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlacklistMe-Info.plist"; sourceTree = "<group>"; };
 		F70714EB158CB1D600DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F70714ED158CB1D600DDC854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F70714EF158CB1D600DDC854 /* BlacklistMe-Prefix.pch */ = {isa = PBXFileReference; path = "BlacklistMe-Prefix.pch"; sourceTree = "<group>"; };
-		F70714F0158CB1D600DDC854 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F70714EF158CB1D600DDC854 /* BlacklistMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlacklistMe-Prefix.pch"; sourceTree = "<group>"; };
+		F70714F0158CB1D600DDC854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F70714F1158CB1D600DDC854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F70714F4158CB1D600DDC854 /* BlacklistMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlacklistMe.xcdatamodel; sourceTree = "<group>"; };
-		F70714F6158CB1D600DDC854 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		F70714F6158CB1D600DDC854 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		F70714F7158CB1D600DDC854 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		F70714F9158CB1D600DDC854 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		F70714F9158CB1D600DDC854 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F70714FA158CB1D700DDC854 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F70714FD158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		F7071500158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
 		F7071503158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		F7071506158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		F707150D158CB1FF00DDC854 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F7B4F87C158CCD3800247A2E /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		F7B4F87D158CCD3800247A2E /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		F7B4F87E158CCD3800247A2E /* MainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F707150E158CB1FF00DDC854 /* CoreLocation.framework in Frameworks */,
 				F70714E0158CB1D600DDC854 /* UIKit.framework in Frameworks */,
 				F70714E2158CB1D600DDC854 /* Foundation.framework in Frameworks */,
 				F70714E4158CB1D600DDC854 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +89,7 @@
 		F70714DE158CB1D600DDC854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F707150D158CB1FF00DDC854 /* CoreLocation.framework */,
 				F70714DF158CB1D600DDC854 /* UIKit.framework */,
 				F70714E1158CB1D600DDC854 /* Foundation.framework */,
 				F70714E3158CB1D600DDC854 /* CoreGraphics.framework */,
@@ -104,6 +113,9 @@
 				F7071505158CB1D700DDC854 /* DetailViewController_iPad.xib */,
 				F70714F3158CB1D600DDC854 /* BlacklistMe.xcdatamodeld */,
 				F70714E8158CB1D600DDC854 /* Supporting Files */,
+				F7B4F87C158CCD3800247A2E /* MainScreenViewController.h */,
+				F7B4F87D158CCD3800247A2E /* MainScreenViewController.m */,
+				F7B4F87E158CCD3800247A2E /* MainScreenViewController.xib */,
 			);
 			path = BlacklistMe;
 			sourceTree = "<group>";
@@ -174,6 +186,7 @@
 				F7071501158CB1D700DDC854 /* MasterViewController_iPad.xib in Resources */,
 				F7071504158CB1D700DDC854 /* DetailViewController_iPhone.xib in Resources */,
 				F7071507158CB1D700DDC854 /* DetailViewController_iPad.xib in Resources */,
+				F7B4F880158CCD3800247A2E /* MainScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +202,7 @@
 				F70714F5158CB1D600DDC854 /* BlacklistMe.xcdatamodeld in Sources */,
 				F70714F8158CB1D600DDC854 /* MasterViewController.m in Sources */,
 				F70714FB158CB1D700DDC854 /* DetailViewController.m in Sources */,
+				F7B4F87F158CCD3800247A2E /* MainScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +342,7 @@
 				F707150C158CB1D700DDC854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
