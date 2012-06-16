@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70714E0158CB1D600DDC854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70714DF158CB1D600DDC854 /* UIKit.framework */; };
+		F70714E2158CB1D600DDC854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70714E1158CB1D600DDC854 /* Foundation.framework */; };
+		F70714E4158CB1D600DDC854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70714E3158CB1D600DDC854 /* CoreGraphics.framework */; };
+		F70714E6158CB1D600DDC854 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70714E5158CB1D600DDC854 /* CoreData.framework */; };
+		F70714EC158CB1D600DDC854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F70714EA158CB1D600DDC854 /* InfoPlist.strings */; };
+		F70714EE158CB1D600DDC854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70714ED158CB1D600DDC854 /* main.m */; };
+		F70714F2158CB1D600DDC854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70714F1158CB1D600DDC854 /* AppDelegate.m */; };
+		F70714F5158CB1D600DDC854 /* BlacklistMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F70714F3158CB1D600DDC854 /* BlacklistMe.xcdatamodeld */; };
+		F70714F8158CB1D600DDC854 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70714F7158CB1D600DDC854 /* MasterViewController.m */; };
+		F70714FB158CB1D700DDC854 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70714FA158CB1D700DDC854 /* DetailViewController.m */; };
+		F70714FE158CB1D700DDC854 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70714FC158CB1D700DDC854 /* MasterViewController_iPhone.xib */; };
+		F7071501158CB1D700DDC854 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70714FF158CB1D700DDC854 /* MasterViewController_iPad.xib */; };
+		F7071504158CB1D700DDC854 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7071502158CB1D700DDC854 /* DetailViewController_iPhone.xib */; };
+		F7071507158CB1D700DDC854 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7071505158CB1D700DDC854 /* DetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F70714DB158CB1D600DDC854 /* BlacklistMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlacklistMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70714DF158CB1D600DDC854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F70714E1158CB1D600DDC854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F70714E3158CB1D600DDC854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F70714E5158CB1D600DDC854 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F70714E9158CB1D600DDC854 /* BlacklistMe-Info.plist */ = {isa = PBXFileReference; path = "BlacklistMe-Info.plist"; sourceTree = "<group>"; };
+		F70714EB158CB1D600DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F70714ED158CB1D600DDC854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F70714EF158CB1D600DDC854 /* BlacklistMe-Prefix.pch */ = {isa = PBXFileReference; path = "BlacklistMe-Prefix.pch"; sourceTree = "<group>"; };
+		F70714F0158CB1D600DDC854 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F70714F1158CB1D600DDC854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F70714F4158CB1D600DDC854 /* BlacklistMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlacklistMe.xcdatamodel; sourceTree = "<group>"; };
+		F70714F6158CB1D600DDC854 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		F70714F7158CB1D600DDC854 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F70714F9158CB1D600DDC854 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		F70714FA158CB1D700DDC854 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F70714FD158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		F7071500158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		F7071503158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		F7071506158CB1D700DDC854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70714D8158CB1D600DDC854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70714E0158CB1D600DDC854 /* UIKit.framework in Frameworks */,
+				F70714E2158CB1D600DDC854 /* Foundation.framework in Frameworks */,
+				F70714E4158CB1D600DDC854 /* CoreGraphics.framework in Frameworks */,
+				F70714E6158CB1D600DDC854 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70714D0158CB1D600DDC854 = {
+			isa = PBXGroup;
+			children = (
+				F70714E7158CB1D600DDC854 /* BlacklistMe */,
+				F70714DE158CB1D600DDC854 /* Frameworks */,
+				F70714DC158CB1D600DDC854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70714DC158CB1D600DDC854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70714DB158CB1D600DDC854 /* BlacklistMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70714DE158CB1D600DDC854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70714DF158CB1D600DDC854 /* UIKit.framework */,
+				F70714E1158CB1D600DDC854 /* Foundation.framework */,
+				F70714E3158CB1D600DDC854 /* CoreGraphics.framework */,
+				F70714E5158CB1D600DDC854 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70714E7158CB1D600DDC854 /* BlacklistMe */ = {
+			isa = PBXGroup;
+			children = (
+				F70714F0158CB1D600DDC854 /* AppDelegate.h */,
+				F70714F1158CB1D600DDC854 /* AppDelegate.m */,
+				F70714F6158CB1D600DDC854 /* MasterViewController.h */,
+				F70714F7158CB1D600DDC854 /* MasterViewController.m */,
+				F70714F9158CB1D600DDC854 /* DetailViewController.h */,
+				F70714FA158CB1D700DDC854 /* DetailViewController.m */,
+				F70714FC158CB1D700DDC854 /* MasterViewController_iPhone.xib */,
+				F70714FF158CB1D700DDC854 /* MasterViewController_iPad.xib */,
+				F7071502158CB1D700DDC854 /* DetailViewController_iPhone.xib */,
+				F7071505158CB1D700DDC854 /* DetailViewController_iPad.xib */,
+				F70714F3158CB1D600DDC854 /* BlacklistMe.xcdatamodeld */,
+				F70714E8158CB1D600DDC854 /* Supporting Files */,
+			);
+			path = BlacklistMe;
+			sourceTree = "<group>";
+		};
+		F70714E8158CB1D600DDC854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70714E9158CB1D600DDC854 /* BlacklistMe-Info.plist */,
+				F70714EA158CB1D600DDC854 /* InfoPlist.strings */,
+				F70714ED158CB1D600DDC854 /* main.m */,
+				F70714EF158CB1D600DDC854 /* BlacklistMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70714DA158CB1D600DDC854 /* BlacklistMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F707150A158CB1D700DDC854 /* Build configuration list for PBXNativeTarget "BlacklistMe" */;
+			buildPhases = (
+				F70714D7158CB1D600DDC854 /* Sources */,
+				F70714D8158CB1D600DDC854 /* Frameworks */,
+				F70714D9158CB1D600DDC854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlacklistMe;
+			productName = BlacklistMe;
+			productReference = F70714DB158CB1D600DDC854 /* BlacklistMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70714D2158CB1D600DDC854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = F70714D5158CB1D600DDC854 /* Build configuration list for PBXProject "BlacklistMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F70714D0158CB1D600DDC854;
+			productRefGroup = F70714DC158CB1D600DDC854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70714DA158CB1D600DDC854 /* BlacklistMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70714D9158CB1D600DDC854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70714EC158CB1D600DDC854 /* InfoPlist.strings in Resources */,
+				F70714FE158CB1D700DDC854 /* MasterViewController_iPhone.xib in Resources */,
+				F7071501158CB1D700DDC854 /* MasterViewController_iPad.xib in Resources */,
+				F7071504158CB1D700DDC854 /* DetailViewController_iPhone.xib in Resources */,
+				F7071507158CB1D700DDC854 /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70714D7158CB1D600DDC854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70714EE158CB1D600DDC854 /* main.m in Sources */,
+				F70714F2158CB1D600DDC854 /* AppDelegate.m in Sources */,
+				F70714F5158CB1D600DDC854 /* BlacklistMe.xcdatamodeld in Sources */,
+				F70714F8158CB1D600DDC854 /* MasterViewController.m in Sources */,
+				F70714FB158CB1D700DDC854 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F70714EA158CB1D600DDC854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70714EB158CB1D600DDC854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F70714FC158CB1D700DDC854 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70714FD158CB1D700DDC854 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F70714FF158CB1D700DDC854 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7071500158CB1D700DDC854 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F7071502158CB1D700DDC854 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7071503158CB1D700DDC854 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F7071505158CB1D700DDC854 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7071506158CB1D700DDC854 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7071508158CB1D700DDC854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7071509158CB1D700DDC854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F707150B158CB1D700DDC854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlacklistMe/BlacklistMe-Prefix.pch";
+				INFOPLIST_FILE = "BlacklistMe/BlacklistMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F707150C158CB1D700DDC854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlacklistMe/BlacklistMe-Prefix.pch";
+				INFOPLIST_FILE = "BlacklistMe/BlacklistMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70714D5158CB1D600DDC854 /* Build configuration list for PBXProject "BlacklistMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7071508158CB1D700DDC854 /* Debug */,
+				F7071509158CB1D700DDC854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F707150A158CB1D700DDC854 /* Build configuration list for PBXNativeTarget "BlacklistMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F707150B158CB1D700DDC854 /* Debug */,
+				F707150C158CB1D700DDC854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F70714F3158CB1D600DDC854 /* BlacklistMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F70714F4158CB1D600DDC854 /* BlacklistMe.xcdatamodel */,
+			);
+			currentVersion = F70714F4158CB1D600DDC854 /* BlacklistMe.xcdatamodel */;
+			path = BlacklistMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F70714D2158CB1D600DDC854 /* Project object */;
+}
